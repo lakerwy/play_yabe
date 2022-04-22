@@ -1,0 +1,204 @@
+22 四月 2022 11:52:33,945 INFO  ~ Starting D:\fubailei\play_test\yabe
+22 四月 2022 11:52:34,158 INFO  ~ Module docviewer is available (D:\百度网盘下载\play\play-1.5.3\play-1.5.3\modules\docviewer)
+22 四月 2022 11:52:34,585 WARN  ~ You're running Play! in DEV mode
+22 四月 2022 11:52:35,098 INFO  ~ Listening for HTTP on port 9001 (Waiting a first request to start) ...
+22 四月 2022 11:52:49,310 INFO  ~ HikariPool-1 - Starting...
+22 四月 2022 11:52:49,326 INFO  ~ HikariPool-1 - Start completed.
+22 四月 2022 11:52:49,338 INFO  ~ Connected to jdbc:h2:mem:play for default
+22 四月 2022 11:52:50,411 INFO  ~ Application 'yabe' is now started !
+22 四月 2022 11:54:38,369 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to delete a method
+22 四月 2022 11:57:08,839 ERROR ~ 
+
+@7nd56olp4
+Internal Server Error (500) for request GET /@tests/init
+
+Compilation error (In /test/BasicTest.java around line 28)
+The file /test/BasicTest.java could not be compiled. Error raised is : User cannot be resolved
+
+play.exceptions.CompilationException: User cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 11:57:08,896 ERROR ~ 
+
+@7nd56olp5
+Internal Server Error (500) for request GET /@tests/end?result=passed
+
+Compilation error (In /test/BasicTest.java around line 28)
+The file /test/BasicTest.java could not be compiled. Error raised is : User cannot be resolved
+
+play.exceptions.CompilationException: User cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 11:57:08,932 ERROR ~ 
+
+@7nd56olp6
+Internal Server Error (500) for request GET /@tests?select=BasicTest.class,ApplicationTest.class
+
+Compilation error (In /test/BasicTest.java around line 28)
+The file /test/BasicTest.java could not be compiled. Error raised is : User cannot be resolved
+
+play.exceptions.CompilationException: User cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 11:57:30,836 INFO  ~ Restart: 2 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+22 四月 2022 13:12:39,127 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+22 四月 2022 13:12:39,182 ERROR ~ 
+
+@7nd56olp9
+Internal Server Error (500) for request GET /@tests/init
+
+Compilation error (In /app/models/Post.java around line 18)
+The file /app/models/Post.java could not be compiled. Error raised is : User cannot be resolved to a type
+
+play.exceptions.CompilationException: User cannot be resolved to a type
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:438)
+	at play.Play.start(Play.java:547)
+	at play.Play.detectChanges(Play.java:680)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:12:39,224 ERROR ~ 
+
+@7nd56olpa
+Internal Server Error (500) for request GET /@tests/end?result=passed
+
+Compilation error (In /app/models/Post.java around line 18)
+The file /app/models/Post.java could not be compiled. Error raised is : User cannot be resolved to a type
+
+play.exceptions.CompilationException: User cannot be resolved to a type
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:12:39,252 ERROR ~ 
+
+@7nd56olpb
+Internal Server Error (500) for request GET /@tests?select=BasicTest.class,ApplicationTest.class
+
+Compilation error (In /app/models/Post.java around line 18)
+The file /app/models/Post.java could not be compiled. Error raised is : User cannot be resolved to a type
+
+play.exceptions.CompilationException: User cannot be resolved to a type
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:13:10,818 ERROR ~ Restart: null
+java.lang.NullPointerException
+	at java.lang.instrument.ClassDefinition.<init>(ClassDefinition.java:63)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:344)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:14:04,730 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+22 四月 2022 13:15:09,882 INFO  ~ Restart: Path has changed
+22 四月 2022 13:17:06,889 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+22 四月 2022 13:19:18,021 ERROR ~ 
+
+@7nd56olpk
+Internal Server Error (500) for request GET /@tests?select=BasicTest.class,ApplicationTest.class
+
+Compilation error (In /test/BasicTest.java around line 96)
+The file /test/BasicTest.java could not be compiled. Error raised is : User cannot be resolved to a type
+
+play.exceptions.CompilationException: User cannot be resolved to a type
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:19:32,154 ERROR ~ 
+
+@7nd56olpl
+Internal Server Error (500) for request GET /@tests?select=BasicTest.class,ApplicationTest.class
+
+Compilation error (In /test/BasicTest.java around line 106)
+The file /test/BasicTest.java could not be compiled. Error raised is : User cannot be resolved
+
+play.exceptions.CompilationException: User cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:19:47,441 ERROR ~ 
+
+@7nd56olpm
+Internal Server Error (500) for request GET /@tests?select=BasicTest.class,ApplicationTest.class
+
+Compilation error (In /test/BasicTest.java around line 122)
+The file /test/BasicTest.java could not be compiled. Error raised is : User cannot be resolved
+
+play.exceptions.CompilationException: User cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:279)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:800)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:642)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:314)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:315)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:334)
+	at play.Play.detectChanges(Play.java:663)
+	at play.Invoker$Invocation.init(Invoker.java:220)
+	at Invocation.HTTP Request(Play!)
+22 四月 2022 13:19:59,687 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+22 四月 2022 13:23:17,116 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+22 四月 2022 13:26:34,041 INFO  ~ Restart: Path has changed
