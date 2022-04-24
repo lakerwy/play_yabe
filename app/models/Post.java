@@ -36,11 +36,11 @@ public class Post extends Model {
     }
 
     public Post previous() {
-        return Post.find("order by postedAt desc").first();
+        return Post.find("postedAt < ?1 order by postedAt desc", postedAt).first();
     }
 
     public Post next() {
-        return Post.find("order by postedAt asc").first();
+        return Post.find("postedAt > ?1 order by postedAt asc", postedAt).first();
     }
 
 }

@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36a2c385-f95c-44d9-a79c-dc0a71829901" name="Default Changelist" comment="" />
+    <list default="true" id="36a2c385-f95c-44d9-a79c-dc0a71829901" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_.._test_data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_.._test_data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_show.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_errors_404.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_play__framework_templates_errors_404.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Post" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Post" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/classes/models/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/models/Post.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="288XMdTa86PnuxxGVuM8W5BgsL6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/guoxin_yun" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,11 +50,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650599139458</updated>
-      <workItem from="1650599140603" duration="11548000" />
+      <workItem from="1650599140603" duration="12747000" />
+      <workItem from="1650760281319" duration="5340000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -28,14 +28,14 @@ Post(firstBobPost):
 
 Post(secondBobPost):
   title:          Just a test of YABE
-  postedAt:       20010-03-25
+  postedAt:       2010-03-25
   author:         bob
   content:        >
     Well, it's just a test.
 
 Post(jeffPost):
   title:          The MVC application
-  postedAt:       20011-06-06
+  postedAt:       2011-06-06
   author:         jeff
   content:        >
     A Play! application follows the MVC architectural pattern as applied to the
